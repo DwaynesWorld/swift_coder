@@ -10,6 +10,8 @@ import Foundation
 
 // O(n2)
 func lengthOfLongestSubstringA(_ s: String) -> Int {
+    let s = Array(s)
+
     var winning = ""
     for i in stride(from: 0, to: s.count, by: 1) {
         var current = String(s[i])
@@ -30,7 +32,9 @@ func lengthOfLongestSubstringA(_ s: String) -> Int {
 }
 
 // O(n)
-func lenghtOfLongestSubstringB(_ s: String) -> Int {
+func lengthOfLongestSubstringB(_ s: String) -> Int {
+    let s = Array(s)
+    
     var smax = 0
     var currentMax = 0
     var startIndex = 0
@@ -63,6 +67,7 @@ func lengthOfLongestSubstringC(_ s: String) -> Int {
     var count = 0
     
     for (n,c) in s.enumerated(){
+        print(c)
         if chars[c] == nil {
             chars[c] = n
             count += 1

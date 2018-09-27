@@ -35,6 +35,7 @@ extension StringProtocol {
         return suffix(Swift.max(0, count - range.lowerBound))
     }
 }
+
 extension Substring {
     var string: String { return String(self) }
 }

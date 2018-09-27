@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		68C32D9E215B088A00632373 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C32D9D215B088A00632373 /* main.swift */; };
-		68C32DA5215BC67B00632373 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C32DA4215BC67B00632373 /* StringExtensions.swift */; };
 		68C32DA7215BC6A300632373 /* LongestLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C32DA6215BC6A300632373 /* LongestLength.swift */; };
+		68C32DA9215C6CEF00632373 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C32DA8215C6CEF00632373 /* LongestPalindrome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		68C32D9A215B088A00632373 /* SwiftCoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftCoder; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C32D9D215B088A00632373 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		68C32DA4215BC67B00632373 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		68C32DA6215BC6A300632373 /* LongestLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestLength.swift; sourceTree = "<group>"; };
+		68C32DA8215C6CEF00632373 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				68C32D9D215B088A00632373 /* main.swift */,
-				68C32DA4215BC67B00632373 /* StringExtensions.swift */,
 				68C32DA6215BC6A300632373 /* LongestLength.swift */,
+				68C32DA8215C6CEF00632373 /* LongestPalindrome.swift */,
 			);
 			path = SwiftCoder;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C32DA7215BC6A300632373 /* LongestLength.swift in Sources */,
-				68C32DA5215BC67B00632373 /* StringExtensions.swift in Sources */,
+				68C32DA9215C6CEF00632373 /* LongestPalindrome.swift in Sources */,
 				68C32D9E215B088A00632373 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
